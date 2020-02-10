@@ -1,0 +1,114 @@
+body{
+	text-align: center;
+	background: url(images/canvas.jpg) center center fixed;
+	background-size: cover;
+}
+
+/*Title*/
+#header{
+	background: linear-gradient(white,rgba(223, 15, 14,0.9));
+	background: -webkit-linear-gradient(white,rgba(223, 15, 14,0.9));
+	background: -moz-linear-gradient(white,rgba(223, 15, 14,0.9));
+	background: -o-linear-gradient(white,rgba(223, 15, 14,0.9));
+	background: -ms-linear-gradient(white,rgba(223, 15, 14,0.9));
+	height: 80px;
+	width: 500px;
+	margin: 10px auto;
+	font-size: 3em;
+	color: white;
+	line-height: 80px;
+	font-weight: bold;
+}
+
+/*input container*/
+.inputContainer{
+	width: 200px;
+	margin: 0px auto;
+}
+
+/*color input, line thickness, slider*/
+.input{
+	height: 30px;
+	font-size: 1.3em;
+}
+#circle{
+	height: 3px;
+	width: 3px;
+	border-radius: 50%;
+	background: black;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+
+#thickness{
+	background: white;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 5px;
+	position: relative;
+}
+
+/*canvas container*/
+#container{
+	width: 500px;
+	height: 400px;
+	background: white;
+	margin: auto;
+	border: 1px solid rgba(223, 15, 14,0.9);
+	border-radius: 10px;
+}
+#paint{
+	background: white;
+	cursor: crosshair;
+}
+
+/*input container 2*/
+.inputContainer2{
+	width: 399px;
+	margin: 0px auto;
+}
+
+.input2{
+	width: 133px;
+	color: #5A3D19;
+	font-size: 1.3em;
+	float: left;
+}
+
+.button{
+	background: #fff;
+	height: 100px;
+	padding: 0px 10px 5px 10px;
+	border-radius: 3px;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 0px 4px rgba(255,255,255,0.4);
+	-webkit-box-shadow: 0px 4px rgba(255,255,255,0.4);
+	-moz-box-shadow: 0px 4px rgba(255,255,255,0.4);
+	-o-box-shadow: 0px 4px rgba(255,255,255,0.4);
+	-ms-box-shadow: 0px 4px rgba(255,255,255,0.4);
+	position: relative;
+}
+.button:hover{
+	background: linear-gradient(white,rgba(247, 133, 159,0.8));
+	background: -webkit-linear-gradient(white,rgba(247, 133, 159,0.8));
+	background: -moz-linear-gradient(white,rgba(247, 133, 159,0.8));
+	background: -o-linear-gradient(white,rgba(247, 133, 159,0.8));
+	background: -ms-linear-gradient(white,rgba(247, 133, 159,0.8));
+}
+.button:active{
+	top: 4px;
+}
+
+.eraseMode{
+	background: #E41F03;
+	color: #fff;
+	border: 1px solid #546695;
+}
